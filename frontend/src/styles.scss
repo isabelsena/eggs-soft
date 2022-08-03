@@ -1,0 +1,396 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.grid {
+  
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 95%;
+  max-width: 1100px;
+  height: 100%;
+  margin: auto;
+  gap: 10px; 
+}
+.header{
+  background:  #17202a
+  ;
+  height: 300px;
+}
+
+ .logo{
+     grid-column: 1/6;
+     height: 233px;
+     width:230px;
+     border-radius: 381px;
+      margin-top: 36px;
+
+ }
+.nuevo-contenerdor-nav {
+  display: flex;
+  margin-left: 323px;
+  
+  
+  
+}
+.nuevo-nav-enlace{
+  color: white;
+  display: inline;
+  text-align: center;
+  text-align: end;
+  margin-left: 15px;
+  font-size: 25px;
+  text-decoration: none;
+  
+  
+  
+}
+.nuevo-nav-enlace:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: yellow;
+}
+.servicios {
+  background: white;
+  width: 100%;
+  height: 964px;
+}
+
+.parrafo_servicios{
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  grid-column: 1/-1;
+  margin-top: 25px;
+  
+  
+}
+.items{
+  
+
+  background: #17202a;
+  display: flex;
+  width: 100%;
+  height: 132%;
+  justify-content: space-evenly;
+  align-items: center; 
+  grid-column: 1/-1;
+  flex-wrap:wrap;
+  margin-top: -148px;
+
+
+}
+.itemes{
+  background: white;
+  width: 40%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  overflow: hidden;/*todo lo que salga se oculte*/
+  height: 339px;
+  /*20px arriba abajo 10px alos lados*/
+  text-align: center;
+  margin-top: -37px;
+  margin-bottom: 20px;
+  
+
+}
+.parrafo_recetas {
+
+  color:black;
+  margin-top: 58px;
+  font-size: 25px;
+  text-decoration: none;
+}
+.parrafo_recetas:hover{
+  color: #17202a;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+.img{
+  width: 99%;
+  height: 250px;
+  margin-bottom: -40px;
+}
+.aside{
+  background:  white;
+
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  grid-column: 1/-1;
+  flex-wrap: wrap;
+  margin-top:0px;
+}
+.titulo2{
+  color: black;
+  margin-top: 148px;
+  grid-column: 1/4;
+  font-size: 30px;
+}
+.img-gallina{
+  width: 84%;
+  grid-column: 4/12;
+  border-radius: 637px;
+  height: 551px;
+  margin-top: 120px;
+}
+.parrafouno{
+  margin-top: 31px;
+  font-size: 30px;
+  grid-column: 1/-1; 
+  color: black;
+}
+h3{
+  font-size: 40px;
+  margin-left: 450px;
+  margin-top: 64px;
+}
+
+.img-abono{
+  grid-column:1/6;
+  width: 100%;
+  height: 75%;
+  margin-top: 9px;
+}
+.parrafo2{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  grid-column: 1/12;
+  margin-top: 16px;
+  
+}
+.titulo3{
+color:black;
+font-size: 30px;
+}
+.aviabono{
+  
+  color: black;
+  grid-column: 1/-1;
+  background: white;
+}
+.producto{
+  width: 100%;
+  height: 400px;
+  background: yellow;
+  grid-column: 1/-1;
+  
+}
+footer{
+  background: white;
+  color: #fff;
+  text-align: center;
+  
+}
+.subtitulo{
+  font-size: 25px;
+}
+.textos-footer > p{
+  color: black;
+  font-size: 28px;
+  margin-top: 20px;
+}
+.textos-footer {
+  grid-column: 1/-1;
+  margin-bottom: 30px;
+  line-height: 25px;
+  
+  
+}
+
+
+[class^="footer-item"] a{
+  color: black;
+  font-size: 30px;
+}
+[class^="footer-item"] {
+  grid-column: span 3;
+}
+h4{
+  margin-top: 30px;
+  color: black;
+}
+
+/* iniciasesion */
+
+.contenido{
+  background-image: linear-gradient(to right top, #fff, green, #6e5e4c, #939874, #fff);
+  width: 100%;
+  height: 350px;
+}
+.contenido-form form p{
+  margin-bottom: 30px;
+}
+
+
+
+.contenido-form form p,
+.contenido-form form .block {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin: 0 0 4rem 0;
+
+  
+}
+.blocks{
+  text-align: center;
+  
+}
+.botton{
+  width: 74px;
+  height: 33px;
+  text-transform: uppercase;
+}
+.botton:hover{
+  background-color: blue;
+  transition: background-color 1s ease-out;
+  outline: 0;
+  border:0;
+  color: white;
+  
+  
+
+}
+h2{
+  color: white;
+  margin-left: 54px;
+}
+
+/* registro */
+.container-wrapper{
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+.container-wrapper > *{
+  padding: 1em;
+}
+.container-form{
+  background-image: linear-gradient(to right top, #fff, green, #6e5e4c, #939874, #fff);
+  color: white;
+  
+}
+.container-info{
+  background:  #6e5e4c;
+  
+
+}
+.container-form form{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container-form form .container-block{
+  grid-column: 1/-1;
+}
+.container-form form p{
+  margin: 0;
+  padding: 1em;
+}
+.container-form form button,
+.container-form form input,
+.container-form form textarea {
+  width: 100%;
+   padding: 1.7em; 
+   border: none;
+   background: none;
+   border-bottom: 1px solid black;
+   outline: 0;
+   color: white;
+}
+.container-form form button{
+  background: black;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+  color: white;
+}
+.container-form form button:hover,
+.container-form form button:focus{
+  background: #6e5e4c;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+.container-info h4,
+.container-info ul,
+.container-info p{
+  text-align: center;
+  margin: 0 0 1rem 0;
+  color: white;
+
+}
+.container-info ul{
+  list-style: none;
+  padding: 0;
+}
+.container-info ul li{
+  padding: .3em;
+}
+/* producto */
+.container-producto{
+  background: white;
+      width: 100%;
+      height: 797px;
+      
+  }
+  .item-producto{
+      background:  #6e5e4c;
+      display: flex;
+      width: 100%;
+      height: 132%;
+      justify-content: space-evenly;
+      align-items: center; 
+      grid-column: 1/-1;
+      flex-wrap:wrap;
+      /* grid-column: 1/12;*/
+  } 
+  .item{
+      width: 40%;
+      box-shadow: 0 0 27px rgba(0, 0, 0, 0.5);
+      overflow: hidden;/*todo lo que salga se oculte*/
+      height: 439px;
+      /*20px arriba abajo 10px alos lados*/
+      text-align: center;
+      margin-top: -37px;
+      background: green;
+     
+      /* grid-template-columns: repeat(2,1fr);*/
+  } 
+  .imagenes{
+      width: 365px;
+      height: 241px;
+      margin-top: 28px;
+      
+  }
+  p{
+      color: white;
+      font-size: 30px;
+      line-height: 39px;
+  }
+  /* button{
+      background: black;
+      width: 151px;
+      height: 41px;
+      border-radius: 33px;
+      color: white;
+  
+  
+  } 
+  button:hover{   
+      cursor:pointer;
+      background: white;
+      color:black;
+      text-transform: uppercase;
+      transition: background-color 1s ease-out;
+  } */
+  /* pagos */
+  

@@ -1,0 +1,16 @@
+
+version: '3'
+
+services:
+
+  backend:
+    build:
+      context: .
+      dockerfile: ./compose/Dockerfile
+    image: isabel/backend
+    #environment:
+    #  - FLASK_ENV=development
+    volumes:
+      - ./src/:/app
+    ports:
+      - 8000:8000

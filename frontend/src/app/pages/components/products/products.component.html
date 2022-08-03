@@ -1,0 +1,15 @@
+<section class="container-producto">
+
+    <section class="item-producto">
+
+        <div class="item" *ngFor="let product of products;">
+            <img  class="imagenes"[src]="product.imagen" alt="imagen huevos tipo A" />
+            <p> {{ product.nombre }} </p>
+            <p> $ {{ product.precio }} </p>
+            <p> # {{ product.codigo }} </p>
+            <button class="realizar-pedido">Carrito</button>
+        </div>
+
+    </section>
+
+</section>

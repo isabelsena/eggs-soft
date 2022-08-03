@@ -1,0 +1,111 @@
+
+    .contenedor-pagos{
+        
+        width: 100%;
+        height: 400px;
+    }
+    .contenedor1{
+        height: 967px;
+        padding: 10px;
+        width: 100%;
+        background: white;
+        
+    }
+    .titulo-pagos{
+        color: black;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 15px;
+        position: absolute;
+        margin-left: 40%;
+    }
+    .pafo1{
+        color: black;
+        font-size: 17px;
+        margin-top: 124px;
+        margin-top: 88px;
+        position: absolute;
+        margin-left: 7%;
+    }
+    .bot-enviar{
+    font-size: 20px;
+    background: #06283D;
+    width: 109px;
+    height: 41px;
+    border-radius:  10px;
+    margin-left: 76%;
+    margin-top: 175px;
+    border: solid 1px #aaaa;
+    color: white;
+    
+       
+
+    }
+    .bot-enviar:hover{
+        cursor: pointer;
+    }
+    .logo-tarjeta{
+        width: 142px;
+        height: 132px;
+        margin-left: 83%;
+        margin-top: 7%;
+        position: absolute;
+    }
+    .iconos-tarjetas{
+        width:26%;
+        margin-top: -38px;
+        height: 153px;
+        margin-left: -5px;
+        margin-bottom: 16px;
+        position: absolute;
+        margin-top: 10%;
+    }
+    .num-tarje{
+        font-size: 23px;
+        margin-left: 469px;
+        position: absolute;
+        color: black;
+        margin-top: 71px;
+        position: absolute
+
+      
+    }
+    .input-form{
+        
+        width: 427px;
+        height: 37px;
+        border-radius: 11px;
+        margin-left: 61%;
+        margin-top: 66px;
+        
+
+    }
+    .input-form:hover{
+     cursor: pointer;
+    }
+    .pafo1{
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .pafo1,
+    .form1,
+     .input-form{
+        color:black;
+        
+    }
+    .formulario { 
+       
+         margin-top: 4%;
+         margin-left: 21%;
+        background: white;
+        width: 61%;
+        height: 852px;
+    
+    }
+    .formulario.num-tarj{
+        display: flex;
+         align-items: center;  
+         display:inline-block;
+         flex-wrap: wrap;
+    }
+    

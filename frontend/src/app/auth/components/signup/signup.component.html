@@ -1,0 +1,42 @@
+<div class="page-container">
+  <!-- <div class="container-logo"> -->
+    <img class="logo-login" src="./assets/images/logobero.png" alt="Logo empresa">
+    <h1 class="title-login">HUEVOS BERO</h1>
+  <!-- </div> -->
+  
+  <form class="registro-login" [formGroup]="form" (ngSubmit)="submit()">
+    <input 
+        class="name" 
+        type="text" 
+        placeholder="Usuario"
+        formControlName="username"
+    />
+    <input 
+        class="email" 
+        type="email" 
+        placeholder="Correo"
+        formControlName="email"
+    />
+    <input 
+        class="password" 
+        type="password" 
+        placeholder="Contraseña"
+        formControlName="password"
+    />
+
+    <p ngif="error.error.username[0]" class="p-error">
+      {{ error.error.username[0] }}
+    </p> 
+
+    <button class="but-sig" type="submit">
+      Registrar
+    </button>
+  </form>
+  
+  <div class="Container-parrafo">
+    <p class="p-registro"> ¿No tienes cuenta..? <a [routerLink]="['/login']"> Ingresa aqui. </a></p>
+  </div>
+</div>
+
+
+

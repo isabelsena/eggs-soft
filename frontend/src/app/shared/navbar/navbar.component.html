@@ -1,0 +1,20 @@
+<header class="header">
+
+    <div class="grid">
+
+        <div>
+            <img class="im-logo" src="./assets/images/logobero.png" alt="esta imagen es el logo de huevosBero"class="logo" />
+        </div>
+        
+        <div class="nuevo-contenerdor-nav">
+            <a [routerLink]="['/pages/home']" class="nuevo-nav-enlace"> Home </a>
+            <a [routerLink]="['/pages/products']" class="nuevo-nav-enlace">Producto</a>
+            <a [routerLink]="['/pages/purshases']" class="nuevo-nav-enlace">Compras</a>
+            <a [routerLink]="['/pages/domicilies']" class="nuevo-nav-enlace">Domicilio</a>
+            <a [routerLink]="['/pages/payments']" class="nuevo-nav-enlace">Pagos</a>
+            <a (click)="logout()" class="nuevo-nav-enlace">Salir</a>
+        </div>
+        
+    </div>
+
+</header>  

@@ -1,0 +1,115 @@
+.container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // width: 100%;
+    //height: auto;
+}
+
+.logo-login {
+    margin-top: 5%;
+    border-radius: 50px;
+    // width: 203px;
+    // height: 164px;
+    // position: absolute;
+}
+
+.title-login {
+    font-size: 30px;
+    margin-top: 2px;
+    font-family: 'Comforter Brush', cursive;
+    color: green;
+    // position: absolute;
+}
+
+.registro-login {
+    width: 496px;
+    height: 367px;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #AAA;
+    box-shadow: 1px -1px 5px  black;
+    background: white;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // display: block;
+}
+
+.email {
+    width: 323px;
+    height: 54px;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 7px;
+    // position: absolute;
+    // margin-left: 80px;
+}
+
+.password {
+    width: 323px;
+    height: 54px;
+    font-size: 20px;
+    margin-top: 15px;
+    border-radius: 7px;
+    // margin-left: 80px;
+    // position: absolute;
+}
+
+.but-sig {
+    font-size: 20px;
+    margin-top: 15px;
+    width: 323px;
+    height: 54px;
+    border-radius: 7px;
+    background: #00092C;
+    color: white;
+    //margin-left: 81px;
+    //position: absolute;
+}
+.Container-parrafo {
+    width: 514px;
+    height: 75px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 7px;
+    border: solid 1px #AAA;
+    background: white;
+    //position: absolute;
+    //margin-left: 766px;
+}
+.p-registro {
+    color: green;
+    font-size: 21px;
+    line-height: 71px;
+    //margin-left: 54px;
+}
+
+.p-error {
+    color: red;
+    font-size: 15px;
+    line-height: 71px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-registro2{
+    color: green;
+    font-size: 21px;
+    line-height: 71px;
+    text-decoration: underline;
+    margin-top: -69px;
+    // margin-left: 254px;
+}
+
+.p-registro2:hover{
+    cursor: pointer;
+}
+
+.page-container {
+    text-align: center;
+    align-items: center;
+}
